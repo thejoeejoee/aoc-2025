@@ -1,0 +1,15 @@
+[package]
+name = "aoc-2025"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "day01"
+path = "src/day01/main.rs"
+
+[dependencies]
+anyhow = "1.0.100"
+insta = "1.44.3"
+
+[dev-dependencies]
+insta = { version = "1.44.3", features = ["yaml"] }
