@@ -1,0 +1,5 @@
+---
+source: src/day02/main.rs
+expression: "slice_int(v, (b, t))"
+---
+3

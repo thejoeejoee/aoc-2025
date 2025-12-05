@@ -6,10 +6,17 @@ edition = "2024"
 [[bin]]
 name = "day01"
 path = "src/day01/main.rs"
+[[bin]]
+name = "day02"
+path = "src/day02/main.rs"
 
 [dependencies]
 anyhow = "1.0.100"
 insta = "1.44.3"
+prime_factorization = "1.0.5"
+itertools = "0.10.5"
+rstest = "0.26.1"
+num = "0.4.3"
 
 [dev-dependencies]
 insta = { version = "1.44.3", features = ["yaml"] }

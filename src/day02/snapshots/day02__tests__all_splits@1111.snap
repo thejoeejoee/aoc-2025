@@ -1,0 +1,5 @@
+---
+source: src/day02/main.rs
+expression: "format!(\"{:?}\", all_splits(input).1)"
+---
+"[1, 2]"
