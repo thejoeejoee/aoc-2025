@@ -1,7 +1,5 @@
 
 use std::fs;
-use itertools::Itertools;
-use rayon::prelude::*;
 
 
 fn solve(input: &str) -> u64 {

@@ -1,7 +1,5 @@
 use std::collections::HashSet;
 use std::fs;
-use itertools::Itertools;
-use rayon::prelude::*;
 
 fn neigh((x, y): &(i16, i16)) -> [(i16, i16); 8] {
     [
